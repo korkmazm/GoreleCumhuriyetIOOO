@@ -1,0 +1,146 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.korkmazm.gorelecumhuriyetiooo.MainFragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/gciologo"
+                    android:id="@+id/imageView2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="OKULUMUZ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textOkulumuz"
+                        android:background="@drawable/head"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Material"
+                        android:textSize="18sp"
+                        android:fontFamily="casual" />
+
+                    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/gridOkulumuz"
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="140dp" />
+
+                    <TextView
+                        android:text="UYGULAMALAR"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textUygulamalar"
+                        android:background="@drawable/head"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Material"
+                        android:textSize="18sp"
+                        android:fontFamily="casual" />
+
+                    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/gridUygulamalar"
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="300dp" />
+
+                    <TextView
+                        android:text="ONLiNE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textOnline"
+                        android:background="@drawable/head"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Material"
+                        android:textSize="18sp"
+                        android:fontFamily="casual" />
+
+                    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/gridOnline"
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <TextView
+                        android:text="BAĞLANTILAR"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textBaglantilar"
+                        android:background="@drawable/head"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Material"
+                        android:textSize="18sp"
+                        android:fontFamily="casual" />
+
+                    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/gridBaglantilar"
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="220dp" />
+
+                    <TextView
+                        android:text="SOSYAL AĞLARIMIZ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textSosyal"
+                        android:background="@drawable/head"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Material"
+                        android:textSize="18sp"
+                        android:fontFamily="casual" />
+
+                    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/gridSosyal"
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="@string/banner_ad_unit_id"
+                        android:layout_below="@+id/contact" >
+
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "639753056656",
+    "firebase_url": "https://gorelecumhuriyetiooo.firebaseio.com",
+    "project_id": "gorelecumhuriyetiooo",
+    "storage_bucket": "gorelecumhuriyetiooo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639753056656:android:763368815ca71ca0",
+        "android_client_info": {
+          "package_name": "com.korkmazm.gorelecumhuriyetiooo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639753056656-86arju4pqk348bo7bfcktc2a2nsvccm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.korkmazm.gorelecumhuriyetiooo",
+            "certificate_hash": "ee9b3973f61b3f3cc6e823442a75b14743404b43"
+          }
+        },
+        {
+          "client_id": "639753056656-vcv6b64ds92np76nf3lqdl7qo2qg6gjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Ar3zqcGZxWKe8861jMua-UqNZA6HcEU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
